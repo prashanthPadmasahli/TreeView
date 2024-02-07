@@ -1,0 +1,68 @@
+[
+    {
+        "ID": 1,
+        "Name": "John Doe",
+        "Children": [
+            {
+                "ID": 2,
+                "Name": "Jane Doe",
+                "Children": []
+            },
+            {
+                "ID": 3,
+                "Name": "Joe Doe",
+                "Children": [
+                    {
+                        "ID": 4,
+                        "Name": "Jack Doe",
+                        "Children": []
+                    },
+                    {
+                        "ID": 5,
+                        "Name": "Katie Doe",
+                        "Children": [
+                            {
+                                "ID": 7,
+                                "Name": "Vanaja",
+                                "Children": [
+                                    {
+                                        "ID": 8,
+                                        "Name": "Praveen",
+                                        "Children": []
+                                    },
+                                    {
+                                        "ID": 9,
+                                        "Name": "Prashanth",
+                                        "Children": [
+                                            {
+                                                "ID": 11,
+                                                "Name": "Aadya",
+                                                "Children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "ID": 10,
+                                        "Name": "Pramod",
+                                        "Children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ID": 6,
+        "Name": "Mary Smith",
+        "Children": [
+            {
+                "ID": 7,
+                "Name": "Patricia Smith",
+                "Children": []
+            }
+        ]
+    }
+]

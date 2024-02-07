@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = TreeViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List(viewModel.people, id: \.id) { person in
+            PersonView(person: person, viewModel: viewModel, leadingOffset: 16)
         }
-        .padding()
     }
 }
 
